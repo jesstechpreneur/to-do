@@ -10,3 +10,11 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.todo{
+    border: 2px solid #000000;
+    width:500px;
+    margin:auto;
+}
+ul{
+    list-style-type:none;
+}
