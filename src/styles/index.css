@@ -10,6 +10,40 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    background-color:  #eaeaea;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    color:#c5c5c5;
+}
+form, .todo-container{
+    background-color:white;
+    width:500px;
+    margin:auto;
+    padding:10px;
+}
+form input,
+form button{
+    border:none;
+    background:white;
+}
+.todo-item{
+    border-bottom: 1px grey solid;
+    border-color:#c5c5c5;
+    
+}
+.todo li{
+    list-style: none;
+    text-align:left;
+    color:#000000;
+}
+.trash-btn, .complete-btn{
+    display:inline-block;
+}
+
 .completed{
     text-decoration: line-through;
     opacity: 0.5;
