@@ -19,6 +19,20 @@ body{
 h1{
     color:#c5c5c5;
 }
+.todo-container, form{
+    max-width:450px;
+    background:white;
+    margin:auto;
+    padding-top: 15px;
+    
+}
+input, .todo-button{
+    height:32px;
+    padding: 0 25px;
+    border:none;
+    background:none;
+}
+
 form, .todo-container{
     background-color:white;
     width:500px;
@@ -33,11 +47,6 @@ form button{
 form input{
     height:52px;
     padding: 0 25px;
-}
-.todo-list li{
-    display:flex;
-    align-items:center;
-    justify-content:center;
 }
 .todo-item{
     border-bottom: 1px grey solid;
