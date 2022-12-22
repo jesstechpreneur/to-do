@@ -30,6 +30,15 @@ form button{
     border:none;
     background:white;
 }
+form input{
+    height:52px;
+    padding: 0 25px;
+}
+.todo-list li{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
 .todo-item{
     border-bottom: 1px grey solid;
     border-color:#c5c5c5;
@@ -43,8 +52,8 @@ form button{
 .trash-btn, .complete-btn{
     display:inline-block;
 }
-
 .completed{
     text-decoration: line-through;
     opacity: 0.5;
+    color:green;
 }
